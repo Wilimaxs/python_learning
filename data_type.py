@@ -15,4 +15,4 @@ Dict = {1: "Watermelon",
         3: list
         }
 
-print(tuple[0])
+print(range)
