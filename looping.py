@@ -74,3 +74,105 @@
 #   for j in range(0, i+1):
 #     print("*", end="")
 #   print("")
+
+# # sample 12 
+# count = 0
+# while count <= 10:
+#   print("belom")
+#   count+=1
+
+# # sample 13
+# num = 0
+# count = 0
+# sum = 0
+# while num >= 0:
+#   num = int(input("input your positive number: "))
+#   if (num >= 0):
+#     count = count + 1
+#     sum = sum + num 
+# avg = sum / count
+# print("Total Sum Of Number is ", sum, "Average ", avg, "count", count )
+
+# # sample 14
+# import random
+# n = random.randint(1,100)
+# print(n)
+# guess = int(input("Guees the number between 1 to 100: "))
+# while n != guess:
+#   if (guess < n):
+#     print("Your guess number is too low")
+#     guess = int(input("Guess the number between 1 to 100: "))
+#   elif (guess > n):
+#     print("Your guess number is too high")
+#     guess = int(input("Guess Ther number between 1 to 100: "))
+# else:
+#   print("thats correct numeber")
+
+# # sample 15
+# list_fruit = ["manggo", "grape", "watermalon", "orange"]
+# for fruit in list_fruit:
+#   for i in fruit:
+#     print(i,end=",")
+#   print()
+
+# # sample 16
+# list_fruit = ["manggo", "grape", "watermelon", "orange"]
+# list_color = ["red", "blue", "green"]
+# for i in list_color:
+#   for j in list_fruit:
+#     print(i,j, end="#")
+#     print()
+#   print()
+
+# # sample 17
+# for i in range(1,11):
+#   for j in range(i):
+#     print("*", end= " ")
+#   print()
+
+# # sample 18
+# i = 11
+# while (i > 0):
+#   j = 11
+#   while(j >= i):
+#     print("*", end=" ")
+#     j -= 1
+#   i -= 1
+#   print()
+
+# # sample 19
+# i = 11
+# while (i > 0):
+#   j = 1
+#   while(j <= i):
+#     print("*", end=" ")
+#     j += 1
+#   i -= 1
+#   print()
+
+# # sample 20
+# list1 = [10,20,30]
+# list2 = [50,60,70]
+# result = []
+# for i in list1:
+#   for j in list2:
+#     result = i + j
+#     print(result, end=", ")
+
+# # sample 21
+# list1 = [10,20,30]
+# list2 = [50,60,70]
+# result = []
+# for i in list1:
+#   for j in list2:
+#     result.append(i+j)
+# print(result)
+
+# # sample 22
+# list1 = [2, 3, 4]
+# list2 = [2, 3, 4]
+# for i in list1:
+#   for j in list2:
+#     if i == j :
+#       continue
+#     print(i, " * ", j, "= ", i*j)
